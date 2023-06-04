@@ -6,6 +6,7 @@ import (
 	"os"
 
 	"github.com/go-chi/chi"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 func main() {
